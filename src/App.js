@@ -1,25 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import gif from './example.gif';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="AppContainer">
+        <h1>React Exercise</h1>
+        <h4>In idiomatic TypeScript and React, implement what is shown in the gif below</h4>
+        <h4>Exact styling is not top priority, you should aim for the functionality</h4>
+        <h5>(Screen recorder stuff of course excluded, the controls and the red click circles)</h5>
+        <img src={gif} width={'90%'} alt="" />
       </div>
     );
   }
